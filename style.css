@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.first, .second, .third, .fourth {
+    padding: 0px 150px;
+    flex: 1 1 auto;
+    height: 50vh;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.header {
+    display: flex;
+    
+    height: 200px;
+}
+
+.first {
+    background-color: rgba(36, 1, 57, 0.876);
+    color: aliceblue;
+}
+
+.second {
+    background-color: white
+}
+
+.third {
+    background-color: rgba(255, 0, 225, 0.1)
+}
+
+.fourth {
+    background-color: white;
+}
