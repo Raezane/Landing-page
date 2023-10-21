@@ -32,6 +32,7 @@ a {
     align-items: center;
     flex: auto;
     flex: 1 1 0;
+    
 }
 
 .lower {
@@ -95,22 +96,26 @@ h2 {
     border-color: rgb(0, 0, 0);
 }
 
-.imagecontainers {
+#images-texts-container {
     display: flex;
     gap: 60px;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
-.second .imagecontainers .container {
+.second #images-texts-container .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1 1 0;
 }
 
-.second .imagecontainers .container .images img {
-    width: 250px;
-    height: 180px;
+.second #images-texts-container .container img {
+    width: 100%;
+    height: 30vh;
+    object-fit: fill;
     border-radius: 5px;
+    flex: 0 1 auto;
 }
 
 #header2 {
@@ -210,9 +215,8 @@ h2 {
     background-color: white;
     flex-direction: column;
     gap: 15px;
-    justify-content: flex-start;
     align-items: center;
-    padding: 10px 220px;
+    padding: 10px 100px;
 }
 
 .third {
